@@ -22,6 +22,7 @@ ASURL="http://downloads.arachni-scanner.com/nightlies/$ASFULLVERSION.tar.gz"
 # ASURL="https://github.com/Arachni/arachni/releases/download/v$ASMAJORVERSION/$ASFULLVERSION.tar.gz"
 
 
+
 #Install Jenkins
 echo '127.0.0.1     jenkins.ci' | sudo tee --append /etc/hosts
 JENKINS_HOST="http://jenkins.ci:8181"
